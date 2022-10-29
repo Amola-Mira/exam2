@@ -1,0 +1,109 @@
+<html>
+  <head>
+    <title></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="" />
+    <meta name="author" content="Ahmed Ali" />
+    <meta
+      name="keywords"
+      content="ahmed bahnasy profile , web developer , html , css , js ,"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+      <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+
+    <section>
+      <!----------------------strip nav bar--------------------------->
+      <div class="strip-header-nav">
+          <div class="strip-logo">
+            <img src="images/logo.png">
+          </div>
+          <div class="strip-toggel-menu">
+            <i class="nav-toggel-btn fa fa-align-justify"></i>
+          </div>
+          <div class="strip-social-icon">
+            <div class="strip-lang">
+              <span>
+                <i class="fas fa-globe"></i>
+              </span>
+            </div>
+            <div class="strip-share">
+              <span>
+                <i class="fas fa-share-alt"></i>
+              </span>
+            </div>
+          </div>
+      </div>
+      <!------------------nav tabs-------------------->
+      <div class="nav-tab-menu">
+        <div class="nav-item">
+          <ul class="navigation-menu">
+            <li class="item1"><a data-list="search" class="nav-category">Search</a></li>
+            <li class="item1"><a data-list="categories" class="nav-category">Categories</a></li>
+            <li class="item2"><a data-list="a" class="nav-category">Area</a></li>
+            <li class="item3"><a data-list="i" class="nav-category">Ingredients</a></li>
+            <li class="item6"><a data-list="contact" class="nav-category">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="nav-social-item">
+          <a><i class="fab fa-facebook-f"></i></a>
+          <a><i class="fab fa-twitter"></i></a>
+          <a><i class="fas fa-globe"></i></a>
+          <div class="pt-3">
+            <span>Copyright © 2019 All Rights Reserved.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------home container------------------------------->
+    <section id="cont">
+      <div class="container text-center">
+        
+        <div class=" flex">
+          <form class="flex" id="submit">
+            <input type="text" id="search" placeholder="search for meal">
+            <button class="searh-btn" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+            
+          </form>
+          <button class="random-btn" id="random">
+            <i class="fas fa-random"></i>
+          </button>
+          
+        </div>
+        <div class="result-heading"></div>
+        <div id="meals" class="meals"></div>
+        <div id="single-meal"></div>
+      </div>
+
+    </section>
+    <!------------------------------------------------------------------------------->
+
+
+    <section class="py-5">
+      <div id="search-container" class="container w-75 myM mmm position-fixed ">
+        
+      </div>
+      <section class="container text-center  ">
+        <div class="row" id="res"></div>
+      </section>
+      <section class="container w-75 text-center my-1 py-2 mt-5 position-relative">
+        <div class="row mt-3 p-2" id="rowData"></div>
+      </section>
+    </section>
+
+
+    
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
